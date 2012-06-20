@@ -1,0 +1,15 @@
+/*-------------------------------------
+#Description:      pw_core.css
+#Version:          v1.0
+#Author:           2010-12-3
+#Recent:           2010-12-3
+-------------------------------------*/
+/*初始化结构*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,blockquote,th,td{margin: 0;padding: 0;}
+ol,ul,li{list-style: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+th{text-align: left;}
+td,th,div{word-break:break-all;word-wrap:break-word;}
+form{display:inline;}
+*{outline:none}
+img{border:0;}
