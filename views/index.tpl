@@ -21,7 +21,7 @@
                 
                 <?php foreach ($this->blogs as $key => $val): ?>
                     <li>
-                        <a href="<?php $this->eprint($val['link']); ?>"><?php $this->eprint($val['title']); ?></a></td>
+                        <a href="<?php $this->eprint($val['link']); ?>"><?php $this->eprint($val['title']); ?></a> - <?php $this->eprint($val['time']); ?></td>
                         <p><?php $this->eprint($val['description']); ?></p>
                     </li>
                 <?php endforeach; ?>
